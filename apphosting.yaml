@@ -16,9 +16,6 @@ runConfig:
 
 # # Environment variables and secrets
 env:
-  - variable: API_KEY
-    secret: AIzaSyC4sDYOk7URHQD5bDOX6zWlA7_O_80PmDQ
-
   - variable: AUTH_DOMAIN
     value: nc-research.firebaseapp.com
     availability:
@@ -54,10 +51,13 @@ env:
     availability:
       - BUILD
       - RUNTIME
-      
-  #   # Same as API_KEY above but with a pinned version.
-  # - variable: PINNED_API_KEY
-  #   secret: myApiKeySecret@5
+
+  - variable: API_KEY
+    secret: AIzaSyC4sDYOk7URHQD5bDOX6zWlA7_O_80PmDQ
+
+  # Same as API_KEY above but with a pinned version.
+  - variable: PINNED_API_KEY
+    secret: AIzaSyC4sDYOk7URHQD5bDOX6zWlA7_O_80PmDQ@5
 
   #   # Same as API_KEY above but with the long form secret reference as defined by Cloud Secret Manager.
   # - variable: VERBOSE_API_KEY
