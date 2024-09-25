@@ -17,22 +17,22 @@ runConfig:
 # # Environment variables and secrets
 env:
   - variable: API_KEY
-    secret: "AIzaSyC4sDYOk7URHQD5bDOX6zWlA7_O_80PmDQ"
+    secret: AIzaSyC4sDYOk7URHQD5bDOX6zWlA7_O_80PmDQ
 
   - variable: AUTH_DOMAIN
-    value: "nc-research.firebaseapp.com"
+    value: nc-research.firebaseapp.com
     availability:
       - BUILD
       - RUNTIME
 
   - variable: PROJECT_ID
-    value: "nc-research"
+    value: nc-research
     availability:
       - BUILD
       - RUNTIME
 
   - variable: STORAGE_BUCKET
-    value: "nc-research.appspot.com"
+    value: nc-research.appspot.com
     availability:
       - BUILD
       - RUNTIME
@@ -44,13 +44,13 @@ env:
       - RUNTIME
 
   - variable: APP_ID
-    value: "1:508877681380:web:25f796b4b2637dae8e72f1"
+    value: 1:508877681380:web:25f796b4b2637dae8e72f1
     availability:
       - BUILD
       - RUNTIME
 
   - variable: MEASUREMENT_ID
-    value: "G-YD5RGJFNH1"
+    value: G-YD5RGJFNH1
     availability:
       - BUILD
       - RUNTIME
