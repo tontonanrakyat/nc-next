@@ -62,7 +62,7 @@ env:
   # Same as API_KEY above but with a pinned version.
   - variable: PINNED_API_KEY
     # secret: AIzaSyC4sDYOk7URHQD5bDOX6zWlA7_O_80PmDQ@5
-    secret: myApiKeySecret@5
+    secret: myApiKeySecret@2
     availability:
       - BUILD
       - RUNTIME
